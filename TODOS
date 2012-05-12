@@ -1,0 +1,24 @@
+I need to use map kit to determine current location and the heading
+-if it doesn't sense significant movement then it should complain and 
+	ask to use the compass if the phone has one or have the user manually add a direction
+	
+	
+Remove the SpecificSearchViewController
+Add an option for "other" in the genre pickerview
+If selected and you click search have it bring up a password like alertview
+	prompt that will allow you to enter a term --> should not accept ""
+Have the splashviewcontroller compile the API request without the location
+Have the searchtableviewcontroller find the location and append that to the url
+
+So the only things that need to get passed are the url, direction, num results
+
+
+"Onward"
+"Cone"
+"Up ahead"
+
+Bugs to fix:
+
+--infinite loop when it's trying to fill a number of responses that don't exist
+--have a cell that says "no results found"
+--Best v ratings

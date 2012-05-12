@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'RoadTrip' target in the 'RoadTrip' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <YAJL/YAJL.h>
+#endif
